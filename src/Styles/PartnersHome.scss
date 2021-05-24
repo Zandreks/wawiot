@@ -1,0 +1,102 @@
+.PartnersBoxHome {
+  background: #F9F9F9;
+  border-radius: 30px;
+  margin-top: 140px;
+
+  .slick-prev, .slick-next {
+    top: 28%;
+  }
+  .slick-prev{
+    left: -55px;
+
+  }
+  .slick-next{
+    right: -55px;
+  }
+  .carusel-img-item {
+    width: 190px;
+    height: 120px;
+    object-fit: cover;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+  }
+
+  .partners-carusel {
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 30px;
+  }
+
+  .head {
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    .title {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 64px;
+      line-height: 74px;
+      color: #282828;
+
+    }
+  }
+
+  .box-text-partners {
+    .title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 42px;
+      line-height: 48px;
+      color: #282828;
+      margin-top: 70px;
+      margin-bottom: 13px;
+      text-align: center;
+    }
+
+    .dicription {
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 28px;
+      color: #282828;
+      margin-bottom: 30px;
+    }
+
+    .action-box {
+      text-align: center;
+      padding-bottom: 70px;
+    }
+  }
+
+
+}
+
+@media (max-width: 734px) {
+  .PartnersBoxHome {
+    .box-text-partners {
+      .box-flex {
+        display: block;
+
+        .dicription {
+        }
+
+        .action-box {
+          margin-top: 10px;
+        }
+      }
+
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .PartnersBoxHome {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+}

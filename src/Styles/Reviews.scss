@@ -1,0 +1,77 @@
+.Reviews-box{
+  margin-top: 140px;
+  .title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 74px;
+    color: #282828;
+    margin-bottom: 74px;
+  }
+.Reviews-list{
+  .Reviews-item{
+    background: #F9F9F9;
+    border-radius: 10px;
+    position: relative;
+    padding: 20px;
+    flex: 1;
+    margin-bottom: 15px;
+    .user-info-box{
+      display: flex;
+      margin-top: 41px;
+      margin-bottom: 39px;
+      .avatar-user{
+        img{
+          width: 64px;
+          height: 64px;
+          border-radius: 55px;
+        }
+        margin-right: 20px;
+      }
+      .user-info{
+        .title-user{
+          font-family: 'Roboto', sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 22px;
+          line-height: 26px;
+          color: #9C171F;
+        }
+        .description{
+          font-family: 'Roboto', sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 18px;
+          color: #282828;
+        }
+      }
+    }
+    p{
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 19px;
+      line-height: 22px;
+      color: #282828;
+      margin: 0;
+    }
+     .rev-top, .rev-bot {
+      color: #9C171F;
+      position: absolute;
+      width: 26px;
+      height: 20px;
+    }
+    .rev-top {
+      top: -12px;
+      left: -10px;
+    }
+    .rev-bot {
+      bottom: 8px;
+      right: -11px;
+    }
+
+
+  }
+}
+}

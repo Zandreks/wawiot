@@ -1,0 +1,51 @@
+.carusel-home{
+  margin-top: 140px;
+  .img-item{
+
+  }
+  .carusel-home-item{
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .content-text{
+      .title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 74px;
+        color: #282828;
+        margin-bottom: 70px;
+      }
+      .sub-title{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 42px;
+        line-height: 48px;
+        color: #282828;
+        margin-bottom: 12px;
+      }
+      .text{
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 23px;
+        line-height: 27px;
+        color: #282828;
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  .carusel-home{
+    text-align: center;
+    .carusel-home-item{
+      .img-item{
+        margin: 0 auto;
+      }
+      .content-text{
+        margin: 0 auto;
+      }
+    }
+  }
+}

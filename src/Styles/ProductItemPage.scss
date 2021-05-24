@@ -1,0 +1,105 @@
+.product-page-item{
+  .head-boxProduct{
+    .bask-box{
+      a{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 41px;
+
+        color: #9C171F;
+      }
+      margin-bottom: 20px;
+    }
+    .title-box-product{
+
+      margin-bottom: 30px;
+      .name{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 72px;
+        line-height: 83px;
+        color: #282828;
+
+      }
+      .box{
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        .line{
+          margin-right: 40px;
+        }
+        .subtitle-product{
+          font-style: normal;
+          font-weight: 500;
+          font-size: 28px;
+          line-height: 32px;
+
+          color: #282828;
+
+        }
+      }
+
+    }
+  }
+  .carusel-img{
+    .image-gallery-image{
+      height: 520px;
+      background: #F9F9F9;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+    .image-gallery-thumbnail.active, .image-gallery-thumbnail:hover, .image-gallery-thumbnail:focus{
+      background: #FFFFFF;
+      box-shadow: 0px 4px 20px #DEDEDE;
+      border-radius: 10px;
+      border: none;
+    }
+    .image-gallery-left-nav .image-gallery-svg, .image-gallery-right-nav .image-gallery-svg{
+
+      margin-right: 15px;
+      background: #F9F9F9;
+      border-radius: 10px;
+      border: none;
+      width: 140px;
+      height: 140px;
+    }
+    .image-gallery-icon:hover{
+      color: #9E3333;
+    }
+  }
+  .box-description{
+
+  .check-box{
+    .item-check{
+      margin-bottom: 22px;
+      display: flex;
+      svg{
+        margin-right: 15px;
+      }
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 28px;
+      color: #000000;
+    }
+  }
+    hr{
+      background: #9E3333;
+      border-radius: 1px;
+      height: 5px;
+      margin-top: 50px;
+    }
+    .button-group{
+      margin-top: 30px;
+      margin-bottom: 30px;
+      button{
+        margin-right: 20px;
+      }
+    }
+  }
+  .tab-box{
+    margin-top: 70px;
+  }
+}

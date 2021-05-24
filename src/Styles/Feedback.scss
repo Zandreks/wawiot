@@ -1,0 +1,106 @@
+.Feedback-box{
+  .left-box{
+    display: flex;
+    flex-direction: column;
+    .title{
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 64px;
+      line-height: 75px;
+      color: #9C171F;
+      margin-bottom: 10px;
+    }
+    .sub-title{
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 56px;
+      color: #282828;
+      margin-top: 30px;
+    }
+    .phone{
+      margin-top: 20px;
+      a{
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 54px;
+        line-height: 63px;
+
+        color: #9C171F;
+      }
+    }
+
+  }
+  .right-box{
+    margin-top: 123px;
+    .form-box{
+      label{
+        display: none;
+      }
+      .form-control-form{
+        width: 100%;
+        background-color: #FFFFFF;
+        border-bottom: 3px solid #282828;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+
+        padding-bottom:4px;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 35px;
+        padding-left: 0;
+      }
+      .form-control-form::placeholder{
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 35px;
+
+        color: #A0A0A0;
+
+      }
+      .form-control-form:active, .form-control-form:focus{
+        color:#9C171F ;
+        box-shadow: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+
+      }
+
+    }
+  }
+}
+@media (max-width: 991px) {
+  .Feedback-box{
+    .left-box{
+      display: flex;
+      flex-direction: column;
+      .title{
+        text-align: center;
+      }
+      .sub-title{
+      text-align: center;
+      }
+      .phone{
+        text-align: center;
+      }
+
+    }
+    .right-box{
+
+      .form-box{
+        button{
+          text-align: center;
+        }
+      }
+    }
+  }
+}

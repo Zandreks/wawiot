@@ -1,0 +1,44 @@
+.product-page{
+  .header-page{
+    //background-attachment: fixed;
+    overflow: hidden;
+    border-radius: 30px;
+
+    //background-color: #567DA7;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    //background-position: center;
+    background-repeat: no-repeat;
+    //background-size: cover;
+    height: 523px;
+    margin-bottom: 100px;
+    .heitch{
+      height: 100%;
+    }
+    .head-title{
+      display: flex;
+      height: 100%;
+      align-items: center;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 110px;
+      line-height: 126px;
+      color: #FFFFFF;
+    }
+  }
+}
+@media (max-width: 1196px) {
+  .product-page{
+    .header-page{
+      text-align: center;
+
+      .text{
+        font-size: 60px;
+
+        margin: 0 auto;
+      }
+    }
+  }
+
+}

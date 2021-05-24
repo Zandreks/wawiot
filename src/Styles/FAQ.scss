@@ -1,0 +1,30 @@
+.FAQ-box{
+  .head-faq{
+    font-family: "Roboto",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #282828;
+    .svgFaq{
+      margin-left: 20px;
+    }
+
+    svg{
+      margin-right: 15px;
+    }
+  }
+  .description{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #282828;
+
+  }
+  .ant-collapse>.ant-collapse-item>.ant-collapse-header .ant-collapse-arrow{
+    top:23px
+  }
+}

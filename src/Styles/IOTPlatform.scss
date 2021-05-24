@@ -1,0 +1,281 @@
+.IOT-Platform{
+  .img-content {
+    //background-attachment: fixed;
+    overflow: hidden;
+    border-radius: 30px;
+
+    //background-color: #567DA7;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    //background-position: center;
+    background-repeat: no-repeat;
+    //background-size: cover;
+    height: 450px;
+    margin-bottom: 140px;
+
+    .heitch {
+      height: 100%;
+    }
+
+    .head-title {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 110px;
+      line-height: 126px;
+      color: #FFFFFF;
+    }
+  }
+  .iot-content{
+    .img-baner{
+      margin-bottom: 30px;
+
+      img{
+        border-radius: 30px;
+      }
+    }
+    .description-iot{
+      font-family: "Roboto",sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 28px;
+      span{
+        font-family: "Roboto",sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #9C171F;
+
+      }
+      .colo-iot{
+        color: #9C171F;
+        font-weight: normal;
+      }
+    }
+    .Features-iot{
+      margin-top: 70px;
+      .Features-box{
+        .title{
+          font-style: normal;
+          font-weight: 500;
+          font-size: 36px;
+          line-height: 41px;
+          margin-bottom: 20px;
+          color: #9C171F;
+        }
+        .description-features{
+          font-family: "Roboto",sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 28px;
+          margin-bottom: 15px;
+          color: #282828;
+        }
+      }
+      .img-features{
+
+      }
+    }
+    .chek-list-iot{
+      margin-top: 70px;
+
+      .chek-iot-item{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        .icon{
+          margin-right: 16px;
+        }
+        .title-chek-iot{
+          font-family: "Roboto",sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 20px;
+          color: #000000;
+        }
+      }
+    }
+    .arhit-iot{
+      margin-top: 50px;
+      .Features-box{
+        .title{
+          font-style: normal;
+          font-weight: 500;
+          font-size: 36px;
+          line-height: 41px;
+          margin-bottom: 20px;
+          color: #9C171F;
+        }
+        .description-features{
+          font-family: "Roboto",sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 28px;
+
+          color: #282828;
+
+        }
+      }
+      .img-features{
+        margin-bottom: 15px;
+
+      }
+    }
+    .box-iot-list{
+      margin-top: 70px;
+      .item-bov-iot{
+        margin-bottom: 70px;
+        .iot-box-title{
+          display: flex;
+          align-items: center;
+          margin-bottom: 20px;
+          .icon{
+            margin-right: 20px;
+          }
+          .title{
+            font-family: "Roboto",sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 42px;
+            color: #9C171F;
+          }
+        }
+        .description-box-iot{
+          font-family: "Roboto",sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 28px;
+
+          color: #282828;
+        }
+      }
+    }
+    .bissnes-box-iot{
+      .img{
+        margin-bottom: 30px;
+        img{
+          border-radius: 30px;
+        }
+      }
+      .title-bissnes-box{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        color: #9C171F;
+        margin-bottom: 20px;
+      }
+      .description-bissnes-box{
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        color: #282828;
+
+      }
+    }
+    .carusel-box-iot{
+      margin-top: 70px;
+      .carusel-iot-item{
+        .img{
+          margin-bottom: 30px;
+          img{
+            border-radius: 30px;
+
+          }
+        }
+        .carusel-title-iot{
+          font-style: normal;
+          font-weight: 500;
+          font-size: 30px;
+          color: #282828;
+          margin-bottom: 6px;
+        }
+        .carusel-description-iot{
+          font-family: "Roboto",sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 28px;
+
+          color: #282828;
+        }
+      }
+    }
+    .carusel-box-iot2{
+      margin-top: 70px;
+      .carusel-iot-item{
+      .img{
+        margin-bottom: 30px;
+        img{
+          border-radius: 30px;
+
+        }
+      }
+        .content-item-iot{
+          .title{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #9C171F;
+          }
+          .description-item{
+            font-family: "Roboto",sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            color: #282828;
+          }
+          .logo-list{
+            margin-top: 20px;
+            margin-bottom: 20px;
+          }
+          .chekList{
+            .chekItem{
+              display: flex;
+              align-items: center;
+              margin-bottom: 20px;
+              .icon{
+                margin-right: 16px;
+              }
+              .titleChek{
+                font-family: "Roboto",sans-serif;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 20px;
+                color: #000000;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1196px) {
+  .IOT-Platform{
+    .img-content{
+      .head-title{
+        font-size: 60px;
+        text-align: center;
+        .text{
+          font-size: 60px;
+
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+
+}

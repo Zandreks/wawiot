@@ -1,0 +1,117 @@
+.ServisePage{
+  .img-content{
+    //background-attachment: fixed;
+    overflow: hidden;
+    border-radius: 30px;
+
+    //background-color: #567DA7;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    //background-position: center;
+    background-repeat: no-repeat;
+    //background-size: cover;
+    height: 450px;
+    margin-bottom: 140px;
+    .heitch{
+      height: 100%;
+    }
+    .head-title{
+      display: flex;
+      height: 100%;
+      align-items: center;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 110px;
+      line-height: 126px;
+      color: #FFFFFF;
+    }
+  }
+  .button-group{
+    .ant-select:not(.ant-select-customize-input) .ant-select-selector{
+      border: 2px solid #9C171F;
+      box-sizing: border-box;
+      border-radius: 6px;
+      box-shadow: none;
+    }
+    .ant-select-arrow{
+      svg{
+        fill: #9C171F;
+      }
+    }
+    .ant-select{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 23px;
+      width: 300px;
+      color: #9C171F;
+    }
+  }
+  .documemts-box{
+    .ant-tabs-bottom>.ant-tabs-nav:before, .ant-tabs-bottom>div>.ant-tabs-nav:before, .ant-tabs-top>.ant-tabs-nav:before, .ant-tabs-top>div>.ant-tabs-nav:before{
+      border-bottom: none;
+    }
+    .ant-tabs-bottom>.ant-tabs-nav, .ant-tabs-bottom>div>.ant-tabs-nav, .ant-tabs-top>.ant-tabs-nav, .ant-tabs-top>div>.ant-tabs-nav{
+      margin-bottom: 40px;
+    }
+
+    .document-item{
+      background: #F9F9F9;
+      border-radius: 10px;
+      padding: 25px;
+      margin-bottom: 30px;
+      .head-box-doc{
+        display: flex;
+
+        .icon{
+          margin-right: 17px;
+        }
+        .title{
+          font-family: Roboto sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 21px;
+
+          color: #282828;
+        }
+
+      }
+      .footerDocument{
+        margin-top: 40px;
+        display: flex;
+        justify-content: flex-end;
+        .link a{
+          font-family: Roboto sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 19px;
+          /* identical to box height */
+
+
+          color: #9C171F;
+
+        }
+      }
+    }
+
+  }
+}
+@media (max-width: 1196px) {
+  .ServisePage{
+    .img-content{
+      .head-title{
+        font-size: 60px;
+        text-align: center;
+        .text{
+          font-size: 60px;
+
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+
+}

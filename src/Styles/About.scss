@@ -1,0 +1,115 @@
+.about-page{
+  .about-fon{
+    //background-attachment: fixed;
+    overflow: hidden;
+    border-radius: 30px;
+
+    //background-color: #567DA7;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    //background-position: center;
+    background-repeat: no-repeat;
+    //background-size: cover;
+    height: 450px;
+    margin-bottom: 140px;
+    .heitch{
+      height: 100%;
+    }
+    .head-title{
+      display: flex;
+      height: 100%;
+      flex-wrap: wrap;
+      align-items: center;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 110px;
+      line-height: 126px;
+      color: #FFFFFF;
+      .img{
+        margin-top: 100px ;
+        margin-left: 174px;
+      }
+    }
+  }
+  .content-about{
+    .img-box{
+      img{
+        border-radius: 30px;
+      }
+    }
+    .description{
+      margin-top: 30px;
+      margin-bottom: 70px;
+      font-family:  'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+
+      font-size: 24px;
+      line-height: 28px;
+      span{
+        font-weight: bold;
+        color: #9C171F;
+      }
+    }
+    .img-about-product{
+      img{
+        border-radius: 30px;
+      }
+    }
+    .title-tech{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 41px;
+
+      color: #9C171F;
+      margin-bottom: 20px;
+    }
+    .description-tech{
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 28px;
+      color: #282828;
+      margin-bottom: 30px;
+    }
+    .about-chek-item{
+      display: flex;
+      align-items: center;
+      margin-bottom: 22px;
+      .icon{
+        margin-right: 22px;
+      }
+      .title{
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #282828;
+
+      }
+    }
+  }
+}
+@media (max-width: 1196px) {
+  .about-page{
+    .about-fon{
+      .head-title{
+        justify-items: center;
+        text-align: center;
+        font-size: 60px;
+
+        .text{
+          margin: 0 auto;
+        }
+        .img{
+          display: none;
+        }
+      }
+    }
+  }
+}

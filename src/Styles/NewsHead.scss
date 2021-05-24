@@ -1,0 +1,48 @@
+.news-head{
+
+  .title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 83px;
+    color: #282828;
+  }
+  .img-prev{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    img{
+      max-height: 480px;
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+  .description{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+    div{
+      margin: 0 auto;
+    }
+  }
+  .date-item{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 20px;
+    color: #929292;
+
+  }
+
+  .link{
+    a{
+      color: #9E3333;
+    }
+    margin-bottom: 30px;
+  }
+}
